@@ -1,0 +1,4 @@
+/* Top bar dropdown aligns with bottom border */
+.has-submenu .submenu{
+	margin-top: 0.5em;
+}

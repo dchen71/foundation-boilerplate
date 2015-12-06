@@ -1,3 +1,6 @@
+/* Global */
+
+
 /* Top bar dropdown aligns with bottom border */
 .has-submenu .submenu{
 	margin-top: 0.5em;
@@ -6,7 +9,7 @@
 
 /* Jumbotrons */
 .jumbotron{
-	height: 25em;
+	min-height: 10em;
 }
 
 /* Home jumbotron */
@@ -26,4 +29,15 @@
 
 #index-jumbo div a{
 	margin-left: 1em;
+}
+
+/* Content */
+.content, .content-header, .content-footer{
+	min-height: 10em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.content:nth-child(even){
+	background-color: #FFB2B2;
 }
